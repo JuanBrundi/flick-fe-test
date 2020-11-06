@@ -1,0 +1,76 @@
+.card-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 450px;
+  border-radius: 50px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.header {
+  background-color: #f55b61;
+  color: white;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.price-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f55b61;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.price-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.price-content .rp {
+  grid-column: 1;
+  align-self: start;
+  justify-self: end;
+  font-size: 1em;
+}
+.price-content .rupiah {
+  grid-column: 2/3;
+  font-size: 2em;
+}
+.price-content .bulan {
+  grid-column: 2/3;
+  grid-row: 2;
+  justify-self: end;
+}
+
+.benefits-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.benefits-points{
+  display: flex;
+  margin: 0 10px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card-button .btn {
+  width: 350px;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #f55b61;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

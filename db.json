@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "nama": "user1",
+      "email": "user1@mail.com",
+      "password": "12345678"
+    }
+  ],
+  "berlangganan": [
+    {
+      "title": "Basic",
+      "harga": "45.000",
+      "benefit": ["Kelola stock produk dengan mudah", "Laporan penjualan", "Jual produk digital"]
+    },
+    {
+      "title": "Premium",
+      "harga": "50.000",
+      "benefit": ["Semua fitur pada paket basic", "Dukungan printer struk", "Live support 24 jam"]
+    },
+    {
+      "title": "Super POS!",
+      "harga": "70.000",
+      "benefit": ["Semua fitur pada paket premium", "Laporan penjualan", "Jual produk digital"]
+    }
+  ],
+  "info": [
+    {
+      "title": "Masa Berlaku Langganan",
+      "content": "15 Juli 2020"
+    },
+    {
+      "title": "Total Produk",
+      "content": "500"
+    },
+    {
+      "title": "Produk Terjual",
+      "content": "1.000"
+    },
+    {
+      "title": "Total Keuntungan",
+      "content": "Rp. 15.000.000"
+    }
+  ],
+  "table": [
+    {
+      "jam": "09.21",
+      "customer": "Budi Cahyadi",
+      "barang": "Kipas Angin",
+      "hargaBarang": "100.000",
+      "qty": "1",
+      "total": "100.000"
+    },
+    {
+      "jam": "13.50",
+      "customer": "Ahmad Santoso",
+      "barang": "Sapu Ijuk",
+      "hargaBarang": "10.000",
+      "qty": "2",
+      "total": "20.000"
+    },
+    {
+      "jam": "15.00",
+      "customer": "Yulia",
+      "barang": "Rinso",
+      "hargaBarang": "35.000",
+      "qty": "2",
+      "total": "140.000"
+    },
+    {
+      "jam": "16.00",
+      "customer": "Evelyn",
+      "barang": "Molto",
+      "hargaBarang": "35.000",
+      "qty": "4",
+      "total": "140.000"
+    },
+    {
+      "jam": "18.30",
+      "customer": "tara",
+      "barang": "Telur Ayam Kampung",
+      "hargaBarang": "75.000",
+      "qty": "1",
+      "total": "75.000"
+    }
+  ]
+}

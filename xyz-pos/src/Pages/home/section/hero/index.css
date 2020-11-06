@@ -1,0 +1,55 @@
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  height: 95vh;
+}
+
+.hero-left-content {
+  display: grid;
+}
+
+.hero-left-content-full-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-left-content-title {
+  font-size: 2.5rem;
+}
+
+.hero-left-content-full-title .inline-text {
+  color: #f55b61;
+}
+
+.btn-left-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-left-content a {
+  text-decoration: none;
+}
+
+.left-content-btn {
+  width: 350px;
+  height: 55px;
+  margin: 10px;
+  border-radius: 2.5em;
+}
+
+.btn-left-content .daftar {
+  background-color: #f55b61;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-left-content .pelajari {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #f55b61;
+  background-color: white;
+  color: #f55b61;
+  cursor: pointer;
+}

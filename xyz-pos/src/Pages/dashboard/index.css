@@ -1,0 +1,135 @@
+.dashboard-wrapper {
+  display: flex;
+}
+
+.dashboard-navbar {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation: slideright 500ms ease;
+}
+
+@keyframes slideright {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.close-navbar-animation {
+  animation: slideleft 500ms ease;
+}
+
+@keyframes slideleft {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-10000px);
+  }
+}
+
+.display-navbar {
+  display: none;
+}
+
+.close-navbar {
+  cursor: pointer;
+  color: #f55b61;
+  height: 50px;
+}
+
+.close-navbar-display {
+  display: none;
+}
+
+.close-sign-dashboard {
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-detail .name{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.profile-detail .email{
+  font-size: 25px;
+}
+.profile-detail .keluar{
+  font-size: 25px;
+  color: #f55b61;
+  cursor: pointer;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.dashboard-container {
+  background-color: #fafafa;
+  height: 100vh;
+  padding: 20px;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+  justify-content: space-between;
+}
+
+.info-container .info {
+  display: flex;
+  flex-direction: column;
+  background-color: #f55b61;
+  color: white;
+  padding: 20px 35px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.penjualan-container {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.table-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+table, tr, td {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 20px;
+  width: 100%;
+}
+
+.table-button{
+  border-radius: 20px;
+  width: 100%;
+  border: none;
+  background-color: #f55b61;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
